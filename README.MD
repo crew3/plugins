@@ -21,16 +21,15 @@ The context always contains the following properties:
 You can find an example of a plugin in the example folder.
 
 # Submitting Your Plugin
-- Pull the Latest Changes: Before you start, make sure your fork is updated with the latest changes from the main repository.
-- Create a New Branch: Use a descriptive branch name related to your plugin.
-- Commit Your Plugin: Commit your plugin with clear and concise messages.
-- Push to GitHub: Push your branch to your fork on GitHub.
-- Open a Pull Request: Submit a pull request to the main repository with a detailed description of your plugin and its functionality.
+To submit your plugin, create a pull request (PR) in the repository with the following structure:
 
-The pull request should contain a new folder, named after your plugin, in the plugins folder. It should contain:
-- The config file: config.ts
-- The plugin function: plugin.ts
-- The Zod validation schema: validator.ts
+- New Plugin Folder: Your PR should include a new folder within the plugins directory. This folder should be named after your plugin.
+- Folder Contents: The folder should contain:
+ - config.ts: The configuration file for your plugin.
+ - plugin.ts: The main plugin function file.
+ - validator.ts: The Zod validation schema file.
+
+In your PR description, provide context about your plugin, explaining its purpose and functionality. This context helps the review team understand what your plugin does and the problem it solves.
 
 # Review Process
 Once your PR is open, the Zealy team will review the plugin. The process might involve:
