@@ -16,8 +16,8 @@ The context always contains the following properties:
 - zealyId: ID of the user completing the quest.
 - communityId: ID of the community where the quest is completed.
 - walletAddress: User's EVM wallet address. Can be null if the user hasn't connected their wallet.
-- twitterId: User's Twitter ID. Can be null if the user hasn't connected their Twitter.
-- discordId: User's Discord ID. Can be null if the user hasn't connected to Discord.
+- twitterId & twitterUsername: User's Twitter ID. Can be null if the user hasn't connected their Twitter.
+- discordId & discordHandle: User's Discord ID. Can be null if the user hasn't connected to Discord.
 
 
 A plugin function should return an object containing:
