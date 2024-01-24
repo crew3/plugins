@@ -1,0 +1,2 @@
+Introduction
+Welcome to the Zealy Platform Integrations repository. We aim to grow our platform by inviting you, our users, to build and share your own integrations. An integration is a key component used to validate that a quest has been completed. It checks user actions and confirms their achievements, ensuring each quest is successfully and accurately accomplished. Your contributions are crucial in making Zealy more exciting and versatile, offering new and varied experiences for everyone who uses it.
