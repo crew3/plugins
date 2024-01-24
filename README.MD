@@ -18,7 +18,13 @@ The context always contains the following properties:
 - walletAddress: User's EVM wallet address. Can be null if the user hasn't connected their wallet.
 - twitterId: User's Twitter ID. Can be null if the user hasn't connected their Twitter.
 - discordId: User's Discord ID. Can be null if the user hasn't connected to Discord.
-You can find an example of a plugin in the example folder.
+
+
+A plugin function should return an object containing:
+- A boolean success property.
+- A message, in case of an error, that will be display to the user.
+
+You can find an example of a plugin in `./plugins/example`
 
 # Submitting Your Plugin
 To submit your plugin, create a pull request (PR) in the repository with the following structure:
