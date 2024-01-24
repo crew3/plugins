@@ -29,7 +29,11 @@ To submit your plugin, create a pull request (PR) in the repository with the fol
  - plugin.ts: The main plugin function file.
  - validator.ts: The Zod validation schema file.
 
+If your plugin requires additional npm packages, you can add them in the root package.json.
+
 In your PR description, provide context about your plugin, explaining its purpose and functionality. This context helps the review team understand what your plugin does and the problem it solves.
+
+
 
 # Review Process
 Once your PR is open, the Zealy team will review the plugin. The process might involve:
