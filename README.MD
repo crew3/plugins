@@ -1,19 +1,44 @@
 # Introduction
-Welcome to the Zealy plugins repository. We aim to grow our platform by inviting you, our users, to build and share your own plugins. An plugin is a component used to validate that a quest has been completed. Your contributions are crucial in making Zealy more exciting and versatile, offering new and varied experiences for everyone who uses it.
+Welcome to the Zealy plugins repository. We aim to grow our platform by inviting you, our users, to build and share your own plugins. A plugin is a component used to validate that a quest has been completed. Your contributions are crucial in making Zealy more exciting and versatile, offering new and varied experiences for everyone who uses it.
 
 # What is a Zealy plugin?
-A Zealy Integration is configured through a JSON file which includes:
-- Name: The integration's name.
-- Description: What the integration does.
-- Plugin Field: Points to the file containing the function executing the integration. This function take as argument:
- - A context: It's shared across all plugins and it's not configurable.
- - Custom properties: It's specific for each plugin and needs to be validated by the [Zod](https://github.com/colinhacks/zod) schema bellow.
+A Zealy plugin is configured through a JSON file which includes:
+
+- Name: The plugin's name.
+- Description: What the plugin does.
+- Plugin Field: Points to the file containing the function executing the plugin. This function takes as arguments:
+- A context: Shared across all plugins and it's not configurable.
+- Custom properties: Specific to each plugin and needs to be validated by the Zod schema below.
 - Validation Field: Points to a file with a Zod schema to validate custom arguments.
 
 
 The context always contains the following properties:
 - zealyId: ID of the user completing the quest.
 - communityId: ID of the community where the quest is completed.
-- walletAddress: User's EVM wallet address. Can be null if the user didn't connected his wallet.
-- twitterId: User's Twitter ID. Can be null. Can be null if the user didn't connected his twitter.
-- discordId: User's Discord ID. Can be null. Can be null if the user didn't connected Discord.
+- walletAddress: User's EVM wallet address. Can be null if the user hasn't connected their wallet.
+- twitterId: User's Twitter ID. Can be null if the user hasn't connected their Twitter.
+- discordId: User's Discord ID. Can be null if the user hasn't connected to Discord.
+You can find an example of a plugin in the example folder.
+
+# Submitting Your Plugin
+- Pull the Latest Changes: Before you start, make sure your fork is updated with the latest changes from the main repository.
+- Create a New Branch: Use a descriptive branch name related to your plugin.
+- Commit Your Plugin: Commit your plugin with clear and concise messages.
+- Push to GitHub: Push your branch to your fork on GitHub.
+- Open a Pull Request: Submit a pull request to the main repository with a detailed description of your plugin and its functionality.
+
+The pull request should contain a new folder, named after your plugin, in the plugins folder. It should contain:
+- The config file: config.ts
+- The plugin function: plugin.ts
+- The Zod validation schema: validator.ts
+
+# Review Process
+Once your PR is open, the Zealy team will review the plugin. The process might involve:
+- Code review for quality and adherence to standards
+- Testing the plugin for functionality and reliability
+- Feedback and possibly requesting changes
+
+Once the plugin is merged into the repo, the Zealy team will integrate it into the product as a new type of quest within 1 week.
+
+# Support
+If you have any questions or face issues, feel free to open an issue in the repository, and we will assist you.
