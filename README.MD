@@ -10,11 +10,11 @@
 - [Support](#section-5)
 
 
-# 📣 [Starting point]<a name="section-1"></a>
+# 📣 Starting point <a name="section-1"></a>
 Welcome to the Zealy plugins repository. We aim to grow our platform by inviting you, our users, to build and share your own plugins. A plugin is a component used to validate that a quest has been completed. Your contributions are crucial in making Zealy more exciting and versatile, offering new and varied experiences for everyone who uses it.
 
 
-# 🤔 [What is a Zealy Plugin?](#section-2) 
+# 🤔 What is a Zealy Plugin? <a name="section-2"></a>
 A Zealy plugin is configured through a JSON file which includes:
 
 - Name: The plugin's name.
@@ -41,7 +41,7 @@ A plugin function should return an object containing:
 You can find an example of a plugin in `./plugins/example`
 
 
-# 🔨 [Submitting Your Plugin](#section-3)
+# 🔨 Submitting Your Plugin <a name="section-3"></a>
 To submit your plugin, create a pull request (PR) in the repository with the following structure:
 
 - New Plugin Folder: Your PR should include a new folder within the plugins directory. This folder should be named after your plugin. 
@@ -55,7 +55,7 @@ If your plugin requires additional npm packages, you can add them in the root pa
 In your PR description, provide context about your plugin, explaining its purpose and functionality. This context helps the review team understand what your plugin does and the problem it solves.
 
 
-# 💯 [Review Process](#section-4)
+# 💯 Review Process <a name="section-4"></a>
 Once your PR is open, the Zealy team will review the plugin. The process might involve:
 - Code review for quality and adherence to standards :computer:
 - Testing the plugin for functionality and reliability 🚀
@@ -64,5 +64,5 @@ Once your PR is open, the Zealy team will review the plugin. The process might i
 Once the plugin is merged into the repo, the Zealy team will integrate it into the product as a new type of quest within 1 week.
 
 
-#  ▶️ [Support](#section-5)
+#  ▶️ Support <a name="section-5"></a>
 If you have any questions or face issues, feel free to open an issue in the repository, and we will assist you. :smile:
