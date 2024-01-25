@@ -11,7 +11,7 @@ Welcome to the Zealy plugins repository. We aim to grow our platform by inviting
 - [Support](#section-4)
 
 
-# 🤔 [What is a Zealy Plugin?](#section-1) 
+# 🤔 [What is a Zealy Plugin?] 
 A Zealy plugin is configured through a JSON file which includes:
 
 - Name: The plugin's name.
