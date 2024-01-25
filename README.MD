@@ -1,6 +1,6 @@
 # Starting point 
 Welcome to the Zealy plugins repository. We aim to grow our platform by inviting you, our users, to build and share your own plugins. A plugin is a component used to validate that a quest has been completed. Your contributions are crucial in making Zealy more exciting and versatile, offering new and varied experiences for everyone who uses it.
-![Zealy Logo](images/zealy.png)
+![Zealy Logo](https://github.com/crew3/plugins/blob/cca193a8616a9c88ef086713be547023ac6a6ece/Zealy.png)
 
 
 # Table of Contents: 
