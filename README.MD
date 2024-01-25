@@ -1,4 +1,3 @@
-![Zealy Logo]()
 <img src="https://github.com/crew3/plugins/blob/5df91122f3b6a8065ce9d302109a9cd9a6953ed3/Zealy%20Media%20Kit%20Logo%20Mark%20BW.png" alt="Image" width="120" height="120">
 
 
