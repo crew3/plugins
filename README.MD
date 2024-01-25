@@ -4,7 +4,7 @@
 ## Table of Contents
 
 - [Starting point](#section-1)
-- [What is a Zealy Plugin?](#https://github.com/crew3/plugins/blob/main/README.MD#-what-is-a-zealy-plugin)
+- [What is a Zealy Plugin?](#section-2) 
 - [Submitting Your Plugin](#section-3)
 - [Review Process](#section-4)
 - [Support](#section-5)
