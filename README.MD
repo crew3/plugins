@@ -1,4 +1,4 @@
-<img src="https://github.com/crew3/plugins/blob/1ab10f86d108e887cfb7e789d9ba055702689917/Zealy.png" alt="Image" width="150" height="150">
+<img src="https://github.com/crew3/plugins/blob/1ab10f86d108e887cfb7e789d9ba055702689917/Zealy.png" alt="Image" width="170" height="170">
 
 
 ## Table of Contents
