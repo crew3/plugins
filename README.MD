@@ -6,7 +6,7 @@ Welcome to the Zealy plugins repository. We aim to grow our platform by inviting
 A Zealy plugin is configured through a JSON file which includes:
 
 
-- Description: What the plugin does.
+- Description: What the plugin.
 - Plugin Field: Points to the file containing the function executing the plugin. This function takes as arguments:
 - A context: Shared across all plugins and it's not configurable.
 - Custom properties: Specific to each plugin and needs to be validated by the Zod schema below.
