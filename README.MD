@@ -12,7 +12,7 @@ Welcome to the Zealy plugins repository. We aim to grow our platform by inviting
 
 
 # [What is a Zealy Plugin?](#section-1) 
-A Zealy plugin is configured through a JSON file which includes: :plug:
+A Zealy plugin is configured through a JSON file which includes: :wire:
 
 - Name: The plugin's name.
 - Description: What the plugin does.
@@ -41,7 +41,7 @@ You can find an example of a plugin in `./plugins/example`
 # [Submitting Your Plugin](#section-2)
 To submit your plugin, create a pull request (PR) in the repository with the following structure:
 
-- New Plugin Folder: Your PR should include a new folder within the plugins directory. This folder should be named after your plugin. :folder:
+- New Plugin Folder: Your PR should include a new folder within the plugins directory. This folder should be named after your plugin. :file:
 - Folder Contents: The folder should contain: 
  - config.ts: The configuration file for your plugin.
  - plugin.ts: The main plugin function file.
@@ -55,7 +55,7 @@ In your PR description, provide context about your plugin, explaining its purpos
 # [Review Process](#section-3)
 Once your PR is open, the Zealy team will review the plugin. The process might involve:
 - Code review for quality and adherence to standards :computer:
-- Testing the plugin for functionality and reliability :tick mark:
+- Testing the plugin for functionality and reliability :yes:
 - Feedback and possibly requesting changes :recycle:
 
 Once the plugin is merged into the repo, the Zealy team will integrate it into the product as a new type of quest within 1 week.
