@@ -20,9 +20,9 @@ A Zealy plugin is configured through a JSON file which includes:
 - Name: The plugin's name.
 - Description: What the plugin does.
 - Plugin Field: Points to the file containing the function executing the plugin. This function takes as arguments:
-- A context: Shared across all plugins and it's not configurable.
-- Custom properties: Specific to each plugin and needs to be validated by the Zod schema below.
-- Validation Field: Points to a file with a Zod schema to validate custom arguments.
+  - A context: Shared across all plugins and it's not configurable.
+  - Custom properties: Specific to each plugin and needs to be validated by the Zod schema below.
+  - Validation Field: Points to a file with a Zod schema to validate custom arguments.
 
 
 The context always contains the following properties:
@@ -46,9 +46,9 @@ To submit your plugin, create a pull request (PR) in the repository with the fol
 
 - New Plugin Folder: Your PR should include a new folder within the plugins directory. This folder should be named after your plugin. 
 - Folder Contents: The folder should contain: 
- - config.ts: The configuration file for your plugin.
- - plugin.ts: The main plugin function file.
- - validator.ts: The Zod validation schema file.
+  - config.ts: The configuration file for your plugin.
+  - plugin.ts: The main plugin function file.
+  - validator.ts: The Zod validation schema file.
 
 If your plugin requires additional npm packages, you can add them in the root package.json.
 
