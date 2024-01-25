@@ -1,6 +1,0 @@
-{
-  "name": "Nft Owner Plugin",
-  "description": "This plugin check if an address possess a specific NFT",
-  "validator": "./validator.js",
-  "plugin": "./plugin.js"
-}
