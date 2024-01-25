@@ -3,11 +3,11 @@
 
 ## Table of Contents
 
-- [Starting point](#section-1)
-- [What is a Zealy Plugin?](#section-2) 
-- [Submitting Your Plugin](#section-3)
-- [Review Process](#section-4)
-- [Support](#section-5)
+- [Starting point](#https://github.com/crew3/plugins?tab=readme-ov-file#-starting-point)
+- [What is a Zealy Plugin?](#https://github.com/crew3/plugins?tab=readme-ov-file#-what-is-a-zealy-plugin) 
+- [Submitting Your Plugin](#https://github.com/crew3/plugins?tab=readme-ov-file#-submitting-your-plugin)
+- [Review Process](#https://github.com/crew3/plugins?tab=readme-ov-file#-review-process)
+- [Support](#https://github.com/crew3/plugins?tab=readme-ov-file#%EF%B8%8F-support)
 
 
 # 📣 [Starting point](#section-1)
