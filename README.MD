@@ -18,6 +18,7 @@ The context always contains the following properties:
 - walletAddress: User's EVM wallet address. Can be null if the user hasn't connected their wallet.
 - twitterId & twitterUsername: User's Twitter ID. Can be null if the user hasn't connected their Twitter.
 - discordId & discordHandle: User's Discord ID. Can be null if the user hasn't connected to Discord.
+- email: User's email address
 
 
 A plugin function should return an object containing:
