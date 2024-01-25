@@ -62,4 +62,4 @@ Once the plugin is merged into the repo, the Zealy team will integrate it into t
 
 
 # [Support](#section-4)
-If you have any questions or face issues, feel free to open an issue in the repository, and we will assist you.
+If you have any questions or face issues, feel free to open an issue in the repository, and we will assist you. :smile:
