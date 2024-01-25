@@ -1,6 +1,6 @@
 {
-  "name": "Age Verification Plugin",
-  "description": "This plugin check if the user is over 18 years old",
+  "name": "Nft Owner Plugin",
+  "description": "This plugin check if an address possess a specific NFT",
   "validator": "./validator.js",
   "plugin": "./plugin.js"
 }
