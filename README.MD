@@ -1,10 +1,11 @@
 # Introduction
 Welcome to the Zealy plugins repository. We aim to grow our platform by inviting you, our users, to build and share your own plugins. A plugin is a component used to validate that a quest has been completed. Your contributions are crucial in making Zealy more exciting and versatile, offering new and varied experiences for everyone who uses it.
 
+
 # What is a Zealy plugin?
 A Zealy plugin is configured through a JSON file which includes:
 
-- Name: The plugin's name.
+
 - Description: What the plugin does.
 - Plugin Field: Points to the file containing the function executing the plugin. This function takes as arguments:
 - A context: Shared across all plugins and it's not configurable.
