@@ -3,14 +3,14 @@
 
 ## Table of Contents
 
-- [Starting point](#https://github.com/crew3/plugins?tab=readme-ov-file#-starting-point)
-- [What is a Zealy Plugin?](#https://github.com/crew3/plugins?tab=readme-ov-file#-what-is-a-zealy-plugin) 
-- [Submitting Your Plugin](#https://github.com/crew3/plugins?tab=readme-ov-file#-submitting-your-plugin)
-- [Review Process](#https://github.com/crew3/plugins?tab=readme-ov-file#-review-process)
-- [Support](#https://github.com/crew3/plugins?tab=readme-ov-file#%EF%B8%8F-support)
+- [Starting point](#section-1)
+- [What is a Zealy Plugin?](#section-2) 
+- [Submitting Your Plugin](#section-3)
+- [Review Process](#section-4)
+- [Support](#section-5)
 
 
-# 📣 [Starting point](#section-1)
+# 📣 [Starting point]<a name="section-1"></a>
 Welcome to the Zealy plugins repository. We aim to grow our platform by inviting you, our users, to build and share your own plugins. A plugin is a component used to validate that a quest has been completed. Your contributions are crucial in making Zealy more exciting and versatile, offering new and varied experiences for everyone who uses it.
 
 
