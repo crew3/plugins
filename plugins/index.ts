@@ -1,7 +1,7 @@
-import { doesTwitterUsernameContainsString } from './doesTwitterUsernameContainsString/config'
+import { twitterUsernameCheck } from './twitterUsernameCheck/config'
 import { doesHoldMatics } from './doesHoldMatics/config'
 
 export default {
-  doesTwitterUsernameContainsString,
+  twitterUsernameCheck,
   doesHoldMatics,
 }
